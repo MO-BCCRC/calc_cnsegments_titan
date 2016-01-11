@@ -1,0 +1,2 @@
+Sample	Chromosome	Start_Position(bp)	End_Position(bp)	Length(bp)	Median_Ratio	Median_logR	TITAN_state	TITAN_call	Copy_Number	MinorCN	MajorCN	Clonal_Cluster	Clonal_Frequency
+infile	1	752566	1071118	318553	0.5700	0.03	3	HET	2	0	2	NA	NA
