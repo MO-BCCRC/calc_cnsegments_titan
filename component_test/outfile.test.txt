@@ -1,2 +1,0 @@
-sample	chr	start	end	num.mark	median
-infile	1	752566	1071118	237	0.03
