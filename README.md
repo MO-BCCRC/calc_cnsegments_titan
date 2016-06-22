@@ -10,7 +10,7 @@ Input        : output from TITAN
 Output       : segment file, IGV compatible segment file.
 Parameters   : sample id
 Seed used    : createTITANsegmentfiles.pl
-
+version: 1.1.3-0.1.3
 ```
 
 ###Dependencies
@@ -21,3 +21,6 @@ Seed used    : createTITANsegmentfiles.pl
 ```
 ###Usage
 generates the segment files (IGV Compatible) for the titan. 
+
+### ChangeLog
+* 1.1.3-0.1.3: added test config

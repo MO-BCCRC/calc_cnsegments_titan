@@ -1,0 +1,17 @@
+make_cmd_tests:
+  normal_pipeline_args:
+    args:
+      id: id
+      infile: /path/to/in
+      outfile: /path/to/out
+      outigv: /path/to/outigv
+      symmetric: TRUE
+    chunk: null
+    output:
+      cmd: perl component_seed/createTITANsegmentfiles.pl
+      cmd_args:
+      - -id=id
+      - -infile=/path/to/in
+      - -outfile=/path/to/out
+      - -outIGV=/path/to/outigv
+      - -symmetric=TRUE
