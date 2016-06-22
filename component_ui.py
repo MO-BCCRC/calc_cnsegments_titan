@@ -30,4 +30,9 @@ parser.add_argument("--outigv",
                     required = True,  
                     help="specify the path where the IGV compatible segment file will be saved")
 
+parser.add_argument("--symmetric", 
+                    required = True, 
+                    help= '''symmetric Flag ''')
+
+
 args,unknown = parser.parse_known_args()

@@ -5,7 +5,7 @@ make_cmd_tests:
       infile: /path/to/in
       outfile: /path/to/out
       outigv: /path/to/outigv
-      symmetric: TRUE
+      symmetric: 'TRUE'
     chunk: null
     output:
       cmd: perl component_seed/createTITANsegmentfiles.pl
